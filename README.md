@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧡 **ParentPath**
 
-## Getting Started
+A modern, elegant parenting support platform built with **Next.js**,
+**TailwindCSS**, and smooth UI animations.\
+Designed to offer a clean, warm, and user-friendly experience for
+parents.
 
-First, run the development server:
+## 🚀 **Features** (Work In Progress)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+-   ✨ Beautiful hover & scroll animations\
+-   🎨 Clean, modern landing page\
+-   📱 Fully responsive UI\
+-   ⚡ Fast performance with Next.js App Router\
+-   🔧 Well-structured and scalable codebase\
+-   🧩 More features coming soon...
+
+## 🛠️ **Tech Stack**
+
+-   **Next.js 14** (App Router)\
+-   **React**\
+-   **TailwindCSS**\
+-   **TypeScript**\
+-   **Lucide Icons**
+
+## 📦 **Getting Started**
+
+Install dependencies:
+
+``` bash
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run the development server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+``` bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open your browser at:
 
-## Learn More
+    http://localhost:3000
 
-To learn more about Next.js, take a look at the following resources:
+Start editing the main page in:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    app/page.tsx
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 **Project Structure**
 
-## Deploy on Vercel
+    parentpath/
+     ├── app/
+     │   ├── page.tsx
+     │   ├── layout.tsx
+     │   └── globals.css
+     ├── public/
+     ├── components/     (coming soon)
+     ├── tailwind.config.ts
+     ├── package.json
+     └── README.md
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 **Deployment**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Easily deploy on **Vercel** (recommended for Next.js apps):
+https://vercel.com/new
+
+## 🤝 **Contributing**
+
+This is a personal project, but suggestions and improvements are always
+welcome.
