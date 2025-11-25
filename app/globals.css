@@ -1,26 +1,26 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes softUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.animate-soft-up {
+  animation: softUp 0.7s ease-out forwards;
+}
+
+
+@theme inline {
+  --color-parent-orange: rgb(250,115,21);
+  --color-parent-orange-hover: rgb(250,90,0);
+  --color-parent-light: #FFF8F2;
+
+  --font-body: Inter, sans-serif;
+  --font-heading: Poppins, sans-serif;
 }
